@@ -5,11 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <script type="text/javascript">
+        var map;
+
+        DG.then(function () {
+            map = DG.map('map', {
+                center: [54.98, 82.89],
+                zoom: 13
+            });
+
+            DG.marker([54.98, 82.89]).addTo(map).bindPopup('');
+        });
+    </script>
     <title>Курсы в Алматы</title>
 
 </head>
 <header class="header">
     <div class="container">
+        <div id = "first"></div>
         <img src="https://olympic.kz/storage/d1/d1b2280162299f327950651faf964958.jpg">
         <div class="menu">
             <a>Home</a>
@@ -17,21 +31,90 @@
             <a>About us</a>
             <a>Contact</a>
         </div>
-
+        <div id = "line"></div>
     </div>
 </header>
 
-<section class = "mainSection">
-    <div class = "container">
-        <img class = "fI" src = "https://d2cyh61n5mln28.cloudfront.net/media/images/netball_female_team_portrait.width-1280.jpg">
-        <div class = "aboutus">
+<section class="mainSection">
+    <div class="container">
+        <img class="fi"
+            src="https://d2cyh61n5mln28.cloudfront.net/media/images/netball_female_team_portrait.width-1280.jpg">
+        <div class="aboutus">
             <h1>Обращайся к самым лучшим специалистом Казахстана</h1>
-            <p>Организация  помогающимся  многим  людям  найти секций,курсы для детей или
-                для себя.За последние 2 года в поиске лучших специалистов своего дела окончательно набрали трениров и открыли бесплатный секций для детей в городе Алматы. </p>
+            <p>Организация помогающимся многим людям найти секций,курсы для детей или
+                для себя.За последние 2 года в поиске лучших специалистов своего дела окончательно набрали трениров и
+                открыли бесплатный секций для детей в городе Алматы. </p>
+
         </div>
-        <button class = "button">Узнать больше</button>
+        <button class="button">Узнать больше</button>
+
+        <div class="MoreUs">
+            <h2>О нас</h2>
+            <a>Организация имеет более десятков секций и клубов по городу Алматы.Помощийся более десятким тысяч
+                людей.</a>
+            <p>&nbsp&nbspОбращаясь к этой Организаций мы могли найти футбольные секций для наших детей и клубы по тансом
+                для нашей дочери за несколько дней.Работники обращается с уважением и быстрыми ответами.Нам понравилась
+                что они делает для детей Казахстана.</p>
+            <h3>Житель города Алматы</h3>
+            <h3 style="margin-left: 450px;">Житель города Алматы</h3>
+        </div>
+        <p class="secondF">Хотели отблагадарить за то что начили помогать всем нуждающимся и делать спортивные секций и
+            клубы открытыми для всех горожан Алматы.Кроме этого открывая подростком шансы становление лучше.</p>
+        <p style="max-width:600px;margin-top: 200px;margin-left: 550px;">Узнали про такую Организацию только 2 дня назад
+            а уже сегодня нашли для детей лучше секцие по каратэ в Алматы.Хотела бы оставить хорошие отзывы чтобы они
+            развивались и помогали большем количеством людям.</p>
+        <h3 style="margin-top: 30px;margin-left: 690px;">Житель города Алматы</h3>
+
+        <div class="programs">
+            <h2>Наши секций</h2>
+            <div id="square">
+                <img src="https://d2cyh61n5mln28.cloudfront.net/media/images/forest-rangers.width-600.jpg">
+                <img style="margin-left: 30px;"
+                    src="https://d2cyh61n5mln28.cloudfront.net/media/images/forest-rangers.width-600.jpg">
+                <img style="margin-left: 20px;"
+                    src="https://d2cyh61n5mln28.cloudfront.net/media/images/forest-rangers.width-600.jpg">
+                <div class="football">
+                    <h3 style="margin-left: 50px;font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">FootBall</h3>
+                    <p style=" margin-left: 50px;">Футбол для детей от 10-15 лет.Если хотите узнать больше о секций и
+                        регистрироваться нажмите на кнопку ниже.</p>
+                    <button class="button" style="margin-left: 100px;margin-top: 20px;background-color: azure;">Узнать
+                        больше</button>
+                </div>
+                <div class="backetball">
+                    <h3 style="margin-left: 50px;font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Basketball</h3>
+                    <p style=" margin-left: 50px;">Баскетбольная дивизионная секция подходить детям от 10-15 лет.Если
+                        хотите узнать больше о секций и регистрироваться нажмите на кнопку ниже.</p>
+                    <button class="button"
+                        style="margin-left: 100px;margin-top: 20px;background-color:bisque;background: bisque;">Узнать
+                        больше</button>
+                </div>
+                <div class="karate">
+                    <h3 style="margin-left: 50px;font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Karate</h3>
+                    <p style=" margin-left: 50px;">Секця каратэ подходить детям от 10-15 лет.Обучаем детей исскуство
+                        каратэ.Если хотите узнать больше о секций и регистрироваться нажмите на кнопку ниже.</p>
+                    <button class="button"
+                        style="margin-left: 100px;margin-top: 20px;background-color:beige;background:beige;">Узнать
+                        больше</button>
+                </div>
+            </div>
+        </div>
+        <h2 style="margin-top: 150px;margin-left: 100px; font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Наши
+            локаций</h2>
+            <div id="map"
+                style="width:1300px; height:600px;margin-left: 110px;margin-top: 70px;    border-radius: 3rem 3rem 3rem 3rem;">
+            </div>
     </div>
 </section>
+
+<footer class="contact">
+    <div class="container">
+        <div id="block">   
+            <form action="https://www.instagram.com/kodzimk/"> <button class = "instagram"type="submit"></button> </form>
+            <form action="https://www.instagram.com/kodzimk/"> <button class = "facebook"type="submit"></button> </form>
+            <h2 id = "phone">Phone +(707)505-6641</h2>
+        </div>
+    </div>
+</footer>
 
 </body>
 
