@@ -213,12 +213,25 @@
     background-color: rgb(0, 123, 255);
 }
 
+.home{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
+}
+
+.home:hover{
+    text-decoration-color: rgba(52, 137, 221, 0.947);
+    text-decoration-line: underline;
+    color:rgba(52, 137, 221, 0.947);
+    cursor: pointer;
+}
+
 
 #block {
     background-image: url("https://d2cyh61n5mln28.cloudfront.net/media/original_images/cricket_gear_01.jpg");
     width: 1450px;
     height: 500px;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-top: 300px;
     border-radius: 3rem 3rem 3rem 3rem;
     background-color: rgb(0, 0, 0);

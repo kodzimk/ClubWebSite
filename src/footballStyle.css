@@ -30,16 +30,7 @@ height: 0.005cm;
        margin-top: -70px;
        margin-left: 200px;
    }
-   .menu a{
-       margin-left: 30px;
-   }
-   
-   .menu a:hover{
-       text-decoration-color: rgba(52, 137, 221, 0.947);
-       text-decoration-line: underline;
-       color:rgba(52, 137, 221, 0.947);
-       cursor: pointer;
-   }
+
    
  .section{
     display:flex;
@@ -140,6 +131,19 @@ height: 0.005cm;
     color: white;
     margin-left: -1000px;
     margin-top: 400px;
+}
+
+.home{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
+}
+
+.home:hover{
+    text-decoration-color: rgba(52, 137, 221, 0.947);
+    text-decoration-line: underline;
+    color:rgba(52, 137, 221, 0.947);
+    cursor: pointer;
 }
 
 .facebookL{
