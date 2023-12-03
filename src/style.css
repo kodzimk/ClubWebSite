@@ -2,12 +2,15 @@
     width: 0 auto;
 }
 
+
 .header .container img{
     margin-left: 20px;
     margin-top: 15px;
     width: 250px;
     height:130px;
 }
+
+
 
 .contact{
     display: flex;
@@ -214,7 +217,7 @@
 }
 
 .home{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 20px;
     font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
 }
@@ -252,7 +255,7 @@
 #line{
     display: flex;
     width: 1450px;
-    margin-top: 38px;
+    margin-top: 42px;
     height: 0.005cm;
     background-color: rgb(185, 190, 195);
 }
