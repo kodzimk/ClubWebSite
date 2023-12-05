@@ -11,7 +11,6 @@
 }
 
 
-
 .contact{
     display: flex;
 }
@@ -69,7 +68,7 @@
 
 .MoreUs h2{
     font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
-    margin-left: 160px;
+    margin-left: 120px;
     margin-top:100px;
 }
 
@@ -97,13 +96,25 @@
  .secondF{
     max-width: 600px;
     margin-top: -140px;
-    margin-left: 900px;
+    margin-left: 860px;
     font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
 }
+
+
 .programs{
     display: flex;
+    margin-left: -50px;
 }
 
+.programs #square{
+    margin-top: 250px;
+}
+
+.gis{
+    margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 3rem 3rem 3rem 3rem;
+}
 
 
 .button {
@@ -146,7 +157,8 @@
 }
 .programs h2{
     font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
-    margin-top: 100px;
+    max-width: 1000px;
+    margin-top: 70px;
     margin-left: 100px;
 }
 

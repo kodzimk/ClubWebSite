@@ -11,6 +11,13 @@
 height: 0.005cm;
     background-color: rgb(185, 190, 195);
 }
+
+.gis{
+    margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 3rem 3rem 3rem 3rem;
+}
+
    
    .header .container img{
        margin-left: 20px;

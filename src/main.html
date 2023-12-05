@@ -6,19 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-    <script type="text/javascript">     
-        var map;
-
-        DG.then(function () {
-            map = DG.map('map', {
-                center: [54.98, 82.89],
-                zoom: 13
-            });
-
-            DG.marker([54.98, 82.89]).addTo(map).bindPopup('');
-        });
-
-       </script>
+    <script src="java.js"></script>
     <title>Курсы в Алматы</title>
 
 </head>
@@ -26,13 +14,13 @@
     <div class="container">
         <div id="first"></div>
         <img src="https://olympic.kz/storage/d1/d1b2280162299f327950651faf964958.jpg">
-        <div class="menu">          
+        <div class="menu">
             <form action="https://www.instagram.com/kodzimk/"> <button class="home"
                     style="background: white; border-style: none;" type="submit">About us</button> </form>
             <form action="https://www.instagram.com/kodzimk/"> <button class="home"
                     style="background: white; border-style: none;" type="submit">Contact</button> </form>
-                    <form action="ourSections.html"> <button class="home"
-                        style="background: white; border-style: none;" type="submit">Our sections</button> </form>
+            <form action="ourSections.html"> <button class="home" style="background: white; border-style: none;"
+                    type="submit">Our sections</button> </form>
         </div>
         <div id="line"></div>
     </div>
@@ -61,15 +49,16 @@
             <h3>Житель города Алматы</h3>
             <h3 style="margin-left: 450px;">Житель города Алматы</h3>
         </div>
+
         <p class="secondF">Хотели отблагадарить за то что начили помогать всем нуждающимся и делать спортивные секций и
             клубы открытыми для всех горожан Алматы.Кроме этого открывая подростком шансы становление лучше.</p>
-        <p style="max-width:600px;margin-top: 200px;margin-left: 550px;">Узнали про такую Организацию только 2 дня назад
+            
+        <p style="max-width:600px;margin-top: 160px;margin-left: 510px;">Узнали про такую Организацию только 2 дня назад
             а уже сегодня нашли для детей лучше секцие по каратэ в Алматы.Хотела бы оставить хорошие отзывы чтобы они
             развивались и помогали большем количеством людям.</p>
-        <h3 style="margin-top: 30px;margin-left: 690px;">Житель города Алматы</h3>
-
+        <h3 style="margin-top: 30px;margin-left: 650px;">Житель города Алматы</h3>
         <div class="programs">
-            <h2>Наши секций</h2>
+            <h2 >Наши секций</h2>
             <div id="square">
                 <img src="https://d2cyh61n5mln28.cloudfront.net/media/images/forest-rangers.width-600.jpg">
                 <img style="margin-left: 30px;"
@@ -88,7 +77,7 @@
                     <h3 style="margin-left: 50px;font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Basketball</h3>
                     <p style=" margin-left: 50px;">Баскетбольная дивизионная секция подходить детям от 10-15 лет.Если
                         хотите узнать больше о секций и регистрироваться нажмите на кнопку ниже.</p>
-                    <form action="fooballIndex.html"> <button type="submit" class="button"
+                    <form action="fooballIndex.html"> <button id="BasketBall" type="submit" class="button"
                             style="margin-left: 100px;margin-top: 20px;background-color:bisque;background: bisque;">Узнать
                             больше</button></form>
                 </div>
@@ -101,18 +90,37 @@
                             больше</button></form>
                 </div>
             </div>
+
         </div>
-        <h2 style="margin-top: 150px;margin-left: 100px; font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Наши
+        <form action="fooballIndex.html"> <button class="button" type="submit"
+                style="margin-left: 600px;margin-top: 50px;background-color: azure;">Больше
+                секций</button></form>
+
+        <h2 style="margin-top: 100px;margin-left: 100px; font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Наши
             локаций</h2>
-        <div id="map"
-            style="width:1300px; height:600px;margin-left: 110px;margin-top: 70px;    border-radius: 3rem 3rem 3rem 3rem;">
+        <div class="gis">
+            <a class="dg-widget-link"
+                href="http://2gis.kz/almaty/firm/9429940000785873/center/76.91400647163393,43.23989597811909/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                на карте Алматы</a>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.kz/almaty/firm/9429940000785873/photos/9429940000785873/center/76.91400647163393,43.23989597811909/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+                    компании</a></div>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.kz/almaty/center/76.914011,43.238541/zoom/16/routeTab/rsType/bus/to/76.914011,43.238541╎Bayzak, бизнес-центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                    проезд до Bayzak, бизнес-центр</a></div>
+            <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <script
+                charset="utf-8">new DGWidgetLoader({ "width": 1200, "height": 500, "borderColor": "#a3a3a3", "pos": { "lat": 43.23989597811909, "lon": 76.91400647163393, "zoom": 16 }, "opt": { "city": "almaty" }, "org": [{ "id": "9429940000785873" }] });</script>
+            <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите
+                его в
+                настройках вашего браузера.</noscript>
         </div>
     </div>
 </section>
 
 <footer class="contact">
     <div class="container">
-        <div id="block">
+        <div style = "margin-left:-0px;margin-top: 150px;" id="block">
             <form action="https://www.instagram.com/kodzimk/"> <button class="instagram" type="submit"></button> </form>
             <form action="https://www.instagram.com/kodzimk/"> <button class="facebook" type="submit"></button> </form>
             <h2 id="phone">Phone +(707)505-6641</h2>
