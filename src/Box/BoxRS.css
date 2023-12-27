@@ -4,18 +4,64 @@
     
    }
 
+.sections{
+    font-family: Gotham Rounded,sans-serif;
+    margin-top: -10px;
+  font-size: 20px;
+}
+
+ul{
+list-style-type: none;
+background-color: white;
+ }
+
+ ul li{
+    display: inline-block;
+    position: relative;
+ }
+
+ ul li a{
+display: block;
+    padding: 10px 10px;
+    color:black;
+    text-decoration: none;
+    font-size:15px;
+ }
+
+
+ ul li ul.dropdown{
+    background:white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+ }
+
+ ul li a{
+  margin-left:-50px;
+ }
+
+ ul li a:hover{
+    background: rgb(44, 44, 51);
+ }
+
+ ul li:hover ul.dropdown{
+    display: block;
+ }
+
+
    #line{
     display: flex;
     width: 1450px;
-    margin-top: 50px;
+    margin-top: 45px;
 height: 0.005cm;
     background-color: rgb(185, 190, 195);
 }
 
 .gis{
+   
     margin-top: 50px;
   margin-left: 150px;
-  border-radius: 3rem 3rem 3rem 3rem;
+
 }
 
    

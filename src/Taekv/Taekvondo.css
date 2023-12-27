@@ -1,0 +1,215 @@
+.container{
+    max-width: 1550px;
+       width: 0 auto;
+    
+   }
+
+.sections{
+    font-family: Gotham Rounded,sans-serif;
+    margin-top: -10px;
+  font-size: 20px;
+}
+
+ul{
+list-style-type: none;
+background-color: white;
+ }
+
+ ul li{
+    display: inline-block;
+    position: relative;
+ }
+
+ ul li a{
+display: block;
+    padding: 10px 10px;
+    color:black;
+    text-decoration: none;
+    font-size:15px;
+ }
+
+
+ ul li ul.dropdown{
+    background:white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+ }
+
+ ul li a{
+  margin-left:-50px;
+ }
+
+ ul li a:hover{
+    background: rgb(44, 44, 51);
+ }
+
+ ul li:hover ul.dropdown{
+    display: block;
+ }
+
+
+
+   #line{
+    display: flex;
+    width: 1450px;
+    margin-top: 43px;
+height: 0.005cm;
+    background-color: rgb(185, 190, 195);
+}
+
+.gis{
+    margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 3rem 3rem 3rem 3rem;
+}
+
+   
+   .header .container img{
+       margin-left: 20px;
+       margin-top: 0px;
+       width: 250px;
+       height:130px;
+   }
+   
+   .contact{
+       display: flex;
+   }
+   
+   
+   .menu{
+       font-family: Gotham Rounded,sans-serif;
+       display:flex;
+       margin-top: -70px;
+       margin-left: 200px;
+   }
+
+   
+ .section{
+    display:flex;
+ }
+
+ .section .container img{
+    image-rendering:crisp-edges;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    -ms-interpolation-mode: nearest-neighbor; 
+    width:1200px;
+    height:500px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 15rem 15rem 15rem 15rem;
+ }
+
+ .section .container h2{
+    font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
+   margin-left: 350px;
+   margin-top: 60px; 
+ }
+
+ #first {
+    display: flex;
+    width: 1600px;
+    margin-left: -100px;
+    margin-top: -30px;
+    height: 70px;
+    background-color: rgb(75,79,84);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section .container p{
+    margin-left: 400px;
+    margin-top: 20px;
+    max-width: 600px;
+    font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
+}
+
+.instagram{
+    width: 60px;
+    height:60px;
+    margin-left: 400px;
+    margin-top: 10px;
+    border: none;
+    background-image:url(https://cdn.icon-icons.com/icons2/2845/PNG/512/instagram_logo_icon_181283.png);
+    background-size: cover;
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+
+.instagram:hover{
+    background-color: rgb(0, 123, 255);
+}
+
+#block {
+    background-image: url("https://d2cyh61n5mln28.cloudfront.net/media/original_images/cricket_gear_01.jpg");
+    width: 1450px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 150px;
+    border-radius: 3rem 3rem 3rem 3rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.facebook{
+    width: 60px;
+    height:60px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 0;
+    background-image:url(https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png);
+    background-size: cover;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.facebook:hover{
+    background-color: rgb(0, 123, 255);
+}
+
+.instagramL{
+    width: 60px;
+    height:60px;
+    margin-left: 1000px;
+    margin-top: 400px;
+    border: none;
+    background-image:url(https://cdn.icon-icons.com/icons2/2845/PNG/512/instagram_logo_icon_181283.png);
+    background-size: cover;
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+
+.instagramL:hover{
+    background-color: rgb(0, 123, 255);
+}
+
+#phone{
+    color: white;
+    margin-left: -1000px;
+    margin-top: 400px;
+}
+
+.home{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: GT-Walsheim,Arial,Helvetica,sans-serif;
+}
+
+.home:hover{
+    text-decoration-color: rgba(52, 137, 221, 0.947);
+    text-decoration-line: underline;
+    color:rgba(52, 137, 221, 0.947);
+    cursor: pointer;
+}
+
+.facebookL{
+    width: 60px;
+    height:60px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 400px;
+    background-image:url(https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png);
+    background-size: cover;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.facebookL:hover{
+    background-color: rgb(0, 123, 255);
+}
