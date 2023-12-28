@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link style = "background-color: white;" rel=" icon" href="ad5818c0-2fa1-4e10-8124-f5d5cd93fa98-removebg-preview.png">
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="java.js"></script>
     <title>Курсы в Алматы</title>
@@ -13,26 +14,32 @@
 <header class="header">
     <div class="container">
         <div id="first"></div>
-        <img style = "width: 140px;height:120px;margin-left:50px;
-        "src="ad5818c0-2fa1-4e10-8124-f5d5cd93fa98.png">
+        <form action="main.html"><button style="background-color: none;background: none;"><img id="main"
+                    src="ad5818c0-2fa1-4e10-8124-f5d5cd93fa98-removebg-preview.png"></button></form>
         <div class="menu">
-            <ul class = "sections">
-                <li>
-                    <a href = "Sections.html">Our sections </a>
-                    <ul class = "dropdown">
-                        <li><a href = "fooballIndex.html">Football</a></li>
-                        <li><a href = "#">Dance</a></li>
-                        <li><a href = "#">Taekvondo</a></li>
-                        <li><a href = "#">Dzudo</a></li>
-                        <li><a href = "#">Box</a></li>
-                        <li><a href = "#">Karate</a></li>
+            <ul style="margin-left: -60px;" class="sections">
+                <img id = "menu"style = "height: 20px;width: 20px;margin-top: 10px;margin-left: 125px;"src = "images (2).png">
+                <li>                 
+                    <a style = "font-family: Gotham Rounded,sans-serif;
+                    font-weight: 500;margin-top:-33px;"href="Sections.html">Our sections </a>
+                    <ul class="dropdown">
+                        <div id="dropdownSquare">
+                            <li><a href="football/fooballIndex.html">Football</a></li>
+                            <li><a href="Dance/Dance.html">Dance</a></li>
+                            <li><a href="Taekv/TaekvondoIndex.html">Taekvondo</a></li>
+                            <li><a href="dZUDO/Dzudo.html">Dzudo</a></li>
+                            <li><a href="Box/Box.html">Box</a></li>
+                            <li><a href="Karate/Karate.html">Karate</a></li>
+                        </div>
                     </ul>
                 </li>
-               </ul>
-            <form action="AbousUs.html"> <button class="home"
-                    style="background: white; border-style: none;" type="submit">About us</button> </form>
-            <form action="Contacts.html"> <button class="home"
-                    style="background: white; border-style: none;" type="submit">Contact</button> </form>
+            </ul>
+
+       
+            <form action="AbousUs.html"> <button class="home" style="background: white; border-style: none;"
+                    type="submit">About us</button> </form>
+            <form action="Contacts.html"> <button class="home" style="background: white; border-style: none;"
+                    type="submit">Contact</button> </form>
         </div>
         <div id="line"></div>
     </div>
@@ -47,10 +54,9 @@
             <p>Организация помогающимся многим людям найти секций,курсы для детей или
                 для себя.За последние 2 года в поиске лучших специалистов своего дела окончательно набрали трениров и
                 открыли бесплатный секций для детей в городе Алматы. </p>
-
         </div>
-        <form  action = "AbousUs.html"><button class="button">Узнать больше</button>
-        </form>
+        <a href="AbousUs.html" class="button-round mt-20 w-8/12 md:w-4/12 lg:w-2/5 button--xlarge button--lime"> LEARN
+            MORE </a>
 
         <div class="MoreUs">
             <h2>О нас</h2>
@@ -61,17 +67,23 @@
                 что они делает для детей Казахстана.</p>
             <h3>Житель города Алматы</h3>
             <h3 style="margin-left: 450px;">Житель города Алматы</h3>
+            <img style="height: 30px;width: 30px;margin-top: 250px;margin-left: -800px;" src="images.png">
+            <img style="height: 30px;width: 30px;margin-top: 250px;margin-left: 700px;" src="images.png">
         </div>
 
         <p class="secondF">Хотели отблагадарить за то что начили помогать всем нуждающимся и делать спортивные секций и
             клубы открытыми для всех горожан Алматы.Кроме этого открывая подростком шансы становление лучше.</p>
-            
-        <p style="max-width:600px;margin-top: 160px;margin-left: 510px;">Узнали про такую Организацию только 2 дня назад
+
+        <img style="height: 20px;width: 30px;margin-top: 100px;margin-left: 750px;" src="images (1).png">
+
+        <p style="max-width:600px;margin-top: 10px;margin-left: 510px;">Узнали про такую Организацию только 2 дня назад
             а уже сегодня нашли для детей лучше секцие по каратэ в Алматы.Хотела бы оставить хорошие отзывы чтобы они
             развивались и помогали большем количеством людям.</p>
+
         <h3 style="margin-top: 30px;margin-left: 650px;">Житель города Алматы</h3>
+
         <div class="programs">
-            <h2 >Наши секций</h2>
+            <h2>Наши секций</h2>
             <div id="square">
                 <img src="https://d2cyh61n5mln28.cloudfront.net/media/images/forest-rangers.width-600.jpg">
                 <img style="margin-left: 30px;"
@@ -108,35 +120,26 @@
         <form action="Sections.html"> <button class="button" type="submit"
                 style="margin-left: 600px;margin-top: 50px;background-color: azure;">Больше
                 секций</button></form>
-
         <h2 style="margin-top: 100px;margin-left: 100px; font-family: GT-Walsheim,Arial,Helvetica,sans-serif;">Наши
             локаций</h2>
         <div class="gis">
-            <a class="dg-widget-link"
-                href="http://2gis.kz/almaty/firm/9429940000785873/center/76.91400647163393,43.23989597811909/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
-                на карте Алматы</a>
-            <div class="dg-widget-link"><a
-                    href="http://2gis.kz/almaty/firm/9429940000785873/photos/9429940000785873/center/76.91400647163393,43.23989597811909/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
-                    компании</a></div>
-            <div class="dg-widget-link"><a
-                    href="http://2gis.kz/almaty/center/76.914011,43.238541/zoom/16/routeTab/rsType/bus/to/76.914011,43.238541╎Bayzak, бизнес-центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
-                    проезд до Bayzak, бизнес-центр</a></div>
             <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <div id = "gis">
             <script
                 charset="utf-8">new DGWidgetLoader({ "width": 1200, "height": 500, "borderColor": "#a3a3a3", "pos": { "lat": 43.23989597811909, "lon": 76.91400647163393, "zoom": 16 }, "opt": { "city": "almaty" }, "org": [{ "id": "9429940000785873" }] });</script>
-            <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите
-                его в
-                настройках вашего браузера.</noscript>
+            </div>
+
         </div>
     </div>
 </section>
 
 <footer class="contact">
     <div class="container">
-        <div style = "margin-left:-0px;margin-top: 150px;" id="block">
-            <form action="https://www.instagram.com/kodzimk/"> <button class="instagram" type="submit"></button> </form>
-            <form action="https://www.instagram.com/kodzimk/"> <button class="facebook" type="submit"></button> </form>
-            <h2 id="phone">Phone: +(707)505-6641 (Айдана)</h2>
+        <div style="margin-left:0px;margin-top: 150px;" id="block">
+            <form target="_blank" action="https://www.instagram.com/kodzimk/"> <button class="instagram" type="submit"></button> </form>
+            <img style="width: 120px;height: 100px;margin-top: 290px;margin-left: -1040px;" src="ad5818c0-2fa1-4e10-8124-f5d5cd93fa98-removebg-preview.png">
+            <h2 style="max-width:100px;color: rgb(254, 254, 254);margin-top: 330px;margin-left: 0px;">Coaches Association</h2>
+            <h2 id="phone">Phone +(707)505-6641</h2>
         </div>
     </div>
 </footer>
