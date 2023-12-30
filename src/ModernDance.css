@@ -10,14 +10,12 @@
   font-size: 20px;
 }
 
+
+
 #section{
     display: inline;
 }
-.map{
-    width:1200px;
-    height:500px;
-    margin-left: 100px;
-}
+
 
 ul{
 list-style-type: none;
@@ -53,8 +51,13 @@ display: block;
     background: rgb(44, 44, 51);
  }
 
+
  ul li:hover ul.dropdown li {
     display: block;
+ }
+
+img:hover #gis .marker{
+    display: none;
  }
 
  #dropdownSquare{
@@ -76,113 +79,9 @@ height: 0.005cm;
     background-color: rgb(185, 190, 195);
 }
 
-mt-auto {
-    margin-top: auto;
-}
-.self-start {
-    align-self: flex-start;
-}
-
-
-.button--small:hover{
-    background: #005f83;
-    color:white;
-}
-
-.button--white {
-    background-color: transparent;
-    --text-opacity: 1;
-    color: #005f83;
-    color: rgba(0,95,131,var(--text-opacity));
-    --border-opacity: 1;
-    border-color: #005f83;
-    border-color: rgba(0,95,131,var(--border-opacity));
-}
-.button--small {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: .75rem;
-}
-.button-round {
-    font-family: Gotham Rounded,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 1;
-    border-width: 2px;
-    border-radius: 24px;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    transition-property: background-color,border-color,color,fill,stroke;
-    transition-duration: .15s;
-}
-
-.md\:w-4\/12 {
-    width:200px;
-}
-.w-8\/12 {
-    width: 200px;
-}
-.mt-20 {
-    margin-top: 1.25rem;
-    margin-left: 170px;
-}
-
-.mt-20:hover {
-   background-color: #b6be5c;
-}
-
-.button--lime {
-    --bg-opacity: 1;
-    background-color: #c5d601;
-    background-color: rgba(197,214,1,var(--bg-opacity));
-    --border-opacity: 1;
-    border-color: #c5d601;
-    border-color: rgba(197,214,1,var(--border-opacity));
-    --text-opacity: 1;
-    color: #005f83;
-    color: rgba(0,95,131,var(--text-opacity));
-}
-.button--xlarge {
-    padding-bottom: 0.75rem;
-    font-size: 1.1875rem;
-    padding-top: 0.8125rem;
-}
-.button-round {
-
-    font-family: Gotham Rounded,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 1;
-    border-width: 2px;
-    border-radius: 24px;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    transition-property: background-color,border-color,color,fill,stroke;
-    transition-duration: .15s;
-}
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-a {
-    background-color: transparent;
-}
 
 
 
-
-.gis{
-    z-index:100px;
-    margin-top: 50px;
-  margin-left: 150px;
-  border-radius: 3rem 3rem 3rem 3rem;
-}
 
 .point{
     margin-left: 700px;
@@ -198,10 +97,28 @@ a {
     z-index: 1;
 }
 
+[class*="copyrights-pane"] {
+    display: none !important;
+  }
+
+.map{
+    width: 500px;
+    height: 500px;
+    background-color: #005f83;
+}
 
 
-.point:hover{
-cursor:pointer;
+#gis{
+    margin-left: 100px;
+}
+
+.marker{
+    color: transparent;
+    text-rendering: none;
+    max-width: 2px;
+    background-image: url(DGCustomization__marker@2x.png);
+    margin-top: -200px;
+   
 }
 
    
@@ -337,6 +254,12 @@ cursor:pointer;
 ul{
 background-color: transparent;
  }
+
+.map{
+    width:1200px;
+    height:500px;
+    margin-left: 100px;
+}
 
 #main{
     width: 120px;
@@ -567,10 +490,6 @@ max-width: 500px;
     margin-top: 250px;
 }
 
-#gis{
-margin-left: 100px;
-
-}
 
 
 .button {

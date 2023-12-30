@@ -13,11 +13,7 @@
 #section{
     display: inline;
 }
-.map{
-    width:1200px;
-    height:500px;
-    margin-left: 100px;
-}
+
 
 ul{
 list-style-type: none;

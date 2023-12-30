@@ -62,7 +62,11 @@ display: block;
     border-radius: 0rem 0rem 2rem 2rem;
     border-color: black;   
 }
-
+.map{
+    width:1200px;
+    height:500px;
+    margin-left: 100px;
+}
 
 #line{
     display: flex;

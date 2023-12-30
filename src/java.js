@@ -22,11 +22,31 @@ iconImageOffset:[0,0]
     let placemark1 = new ymaps.Placemark(center,{
 balloonContent:`
 
-<div class = "balloon">
-<div class = "ballon_address">Адрес: мкр. Аксай-1, дом. 10/3</div>
+<div style = "width:200px;height:200px;">
+<a style = "color: #04b;font-size:20px;">Хан-Темир</a>
+<h4 style = "margin-top:-5px;color:rgba(14,0,0,.2);">Спортивные секций</h4>
+
+<div style = "height:0.5px;width:200px;background-color:rgba(0,0,0,.2);margin-top:10px;"></div>
+
+<div style = "margin-top:10px;font-size:15px;">Мкр. Аксай-1, дом. 10/3</div>
 <div class = "balloon_contacts">
-<a>Секция по каратэ</a>
-<form action = "main.html"> <button style = "background-color:rgba(0,0,0,0.29);background:rgba(0,0,0,0.3);width:150px;height:30px;">Узнать больше</button></form>
+<a style = "margin-top:-20px; font-size:15px;">Секция по каратэ</a>
+<div style = "height:0.5px;width:200px;background-color:rgba(0,0,0,.2);margin-top:10px;"></div>
+
+<style>
+
+button:hover{
+    cursor:pointer;
+}
+
+
+</style>
+
+<form action = "SectionKarate.html"> <button id = "btn"style = "background:rgba(0,0,0,.2);background-color:rgba(0,0,0,.2);width:200px;height:25px;margin-left:0px;margin-top:20px;">Узнать больше</button></form>
+
+<div style = "height:0.5px;width:200px;background-color:rgba(0,0,0,.2);margin-top:10px;"></div>
+
+
    </div>
 </div>
 
@@ -47,7 +67,7 @@ iconImageOffset:[-19,-44]
   map.controls.remove('rulerControl'); // удаляем контрол правил
   map.behaviors.disable(['scrollZoom']); 
 
-  map.geoObjects.add(placemark);
+
   map.geoObjects.add(placemark1);
 
 }

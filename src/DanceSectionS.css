@@ -4,6 +4,12 @@
     
    }
 
+   .map{
+    width:1200px;
+    height:500px;
+    margin-left: 100px;
+}
+
 .sections{
     font-family: Gotham Rounded,sans-serif;
     margin-top: -10px;
