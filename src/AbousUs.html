@@ -8,7 +8,7 @@
     <link style="background-color: white;" rel=" icon" href="ad5818c0-2fa1-4e10-8124-f5d5cd93fa98-removebg-preview.png">
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="java.js"></script>
-    <title>Про нас</title>
+    <title>Ассоциация тренеров</title>
 
 </head>
 <header class="header">
@@ -17,6 +17,7 @@
         <form action="main.html"><button style="background-color: none;background: none;"><img id="main"
                     src="ad5818c0-2fa1-4e10-8124-f5d5cd93fa98-removebg-preview.png"></button></form>
         <div class="menu">
+        
             <ul style="margin-left: -60px;" class="sections">
                 <img id="menu" style="height: 20px;width: 20px;margin-top: 10px;margin-left: 125px;"
                     src="images (2).png">
@@ -38,6 +39,8 @@
                 </li>
             </ul>
 
+            <form action="main.html"> <button class="home" style="background: white; border-style: none;"
+                type="submit">Home</button> </form>        
 
             <form action="AbousUs.html"> <button class="home" style="background: white; border-style: none;"
                     type="submit">About us</button> </form>
@@ -52,8 +55,19 @@
         <div class = "about">
             <h1>Ассоциация тренеров Алматы</h1>
 
-            <p style="max-width: 500px;">Ассоциация помогающая людям и гражданинам города найти секций и курсы по душе.
+            <p style="max-width: 500px;">Ассоциация помогающая людям и гражданинам города найти секций и курсы по душе.Мы ишем людей и даем быструю обратную связь кто пришел чтобы найти самые удобные секций для себя или для семьй.
             </p>
+
+
+        </div>
+
+        <h1 style="margin-left: 100px;margin-top: 90px;">Наши локаций</h1>
+        <div class="gis">
+            <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <div id="gis">
+                <script
+                    charset="utf-8">new DGWidgetLoader({ "width": 1200, "height": 500, "borderColor": "#a3a3a3", "pos": { "lat": 43.23989597811909, "lon": 76.91400647163393, "zoom": 16 }, "opt": { "city": "almaty" }, "org": [{ "id": "9429940000785873" }] });</script>
+            </div>
 
         </div>
     </div>
