@@ -14,7 +14,7 @@
     width: 900px;
     height: 500px;
     overflow: hidden;
-    border: 5px solid #2c2b2b;
+    border: 2px solid #706f6f;
     margin-top: 1400px;
     margin-left: 0px;
 }
@@ -541,3 +541,4 @@ a {
 a {
     background-color: transparent;
 }
+

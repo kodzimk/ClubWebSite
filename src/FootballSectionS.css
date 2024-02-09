@@ -497,11 +497,12 @@ max-width: 500px;
 
 
 .fi {
-   width: 800px;
+   width: 700px;
    height:500px;
-   border-radius: 30rem 0 0 30rem;
+ 
    margin-left: 700px;
    margin-top: 50px;
+  
 }
 
 .aboutus h1{

@@ -288,6 +288,41 @@ button:hover{
                                                 
                                                     });
 
+                                                    let placemark14 = new ymaps.Placemark([43.19806507449617,76.87679800000001],{
+                                                        balloonContent:`
+                                                        
+                                                        <div style = "width:200px;height:200px;">
+                                                        <a style = "color: #04b;font-size:20px;">ФК Орбита
+                                                        </a>
+                                                        <h4 style = "margin-top:-5px;color:rgba(14,0,0,.2);">ТОО "rent company" </h4>
+                                                        <div style = "height:0.5px;width:200px;background-color:rgba(0,0,0,.2);margin-top:10px;"></div>
+                                                        
+                                                        <div style = "margin-top:10px;font-size:15px">  мкр. Орбита-3, дом. 55а</div>
+                                                        <h4 style = "margin-top:0px;color:rgba(14,0,0,.2);">Секция по футболу</h4>
+                                                        <div class = "balloon_contacts">
+                                                        <div style = "height:0.5px;width:200px;background-color:rgba(0,0,0,.2);margin-top:10px;"></div>
+                                                        
+                                                        <style>
+                                                        
+                                                        button:hover{
+                                                            cursor:pointer;
+                                                        }
+                                                        
+                                                        
+                                                        </style>
+                                                        
+                                                        <form action = "FootballO.html"> <button id = "btn"style = "background:rgba(0,0,0,.2);background-color:rgba(0,0,0,.2);width:200px;height:25px;margin-left:0px;margin-top:20px;">Узнать больше</button></form>
+                                                        
+                                                        <div style = "height:0.5px;width:200px;background-color:rgba(0,0,0,.2);margin-top:10px;"></div>
+                                                        
+                                                        
+                                                           </div>
+                                                        </div>
+                                                        `
+                                                            },{
+                                                        
+                                                            });
+
                                                     let placemark8 = new ymaps.Placemark([43.19806507449617,76.87679800000001],{
                                                         balloonContent:`
                                                         
@@ -379,6 +414,7 @@ button:hover{
   map.geoObjects.add(placemark7);
   map.geoObjects.add(placemark8);
   map.geoObjects.add(placemark9);
+  map.geoObjects.add(placemark14);
 }
 
 ymaps.ready(init);
